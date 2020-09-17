@@ -1,0 +1,113 @@
+.card img {
+	width: 50%;
+	margin-right: -20px;
+	margin-top: 15px;
+}
+
+.card .cardtext th{
+	text-align: center;
+}
+
+.card {
+	background-color: #141e30;
+	border-radius: 20px;
+	font-size: 10px;
+	color: rgba(230,230,230,1);
+}
+.table {
+	border-radius: 10px;
+	background-color: #243b55;
+}
+
+.card-body {
+	color: rgba(230,230,230,1);
+	margin-top: -20px;
+}
+.card-title {
+	text-align: center;
+}
+.card table th {
+	border: none;
+}
+.img-crud {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.but-Crud {
+	float: right;
+	width: 50%;
+	text-align: center;
+}
+.crud {
+	position: relative;
+	width: 50%;
+	height: 30px;
+	margin : 5px;
+	display: block;
+	margin-top: 25px;
+	margin-left: 20px;
+	border: none;
+	border-radius: 30px;
+}
+.crud a {
+	color: rgba(230,230,230,1);
+	text-decoration: none;
+}
+.delete {
+	margin-bottom: 25px;
+	background-color: #833b42;
+}
+.update {	
+	background-color: #3b8345;
+}
+.report {	
+	background-color: #7c8308;
+}
+.desc {
+	margin-top: -35px;
+}
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+	.card img {
+		width: 150px;
+		margin: auto;
+	}
+	.card {
+		width: 100%;
+		font-size: 16px;
+		padding: 20px 0;
+	}
+	.crud {
+		height: 30px;
+		width: 70px;
+		border: none;
+		border-radius: 20px;
+		font-size: 13px;
+		cursor: pointer;
+		display: inline;
+		margin: 5px;
+	}
+	.report {
+		width: 150px;
+	}
+	.img-crud {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.but-Crud {
+		float: none;
+		width: 100%;
+		margin: auto;
+	}
+	.table {
+		margin-top: 60px;
+	}
+	.desc {
+		margin-top: 40px;
+	}
+
+}

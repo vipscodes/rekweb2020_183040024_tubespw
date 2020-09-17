@@ -1,0 +1,576 @@
+@font-face {
+	font-family:'courgette';
+	src : url('../assets/font/Courgette/Courgette-Regular.ttf') format('truetype');
+		  font-weight: normal;
+		  font-style: normal;
+}
+@font-face {
+    font-family:'blackops';
+    src : url('../assets/font/black-ops-one/BlackOpsOne-Regular.ttf') format('truetype');
+          font-weight: normal;
+          font-style: normal;
+}
+@font-face {
+    font-family:'graduate';
+    src : url('../assets/font/Graduate/Graduate-Regular.ttf') format('truetype');
+          font-weight: normal;
+          font-style: normal;
+}
+/* SCROLL BAR */
+/* scroller browser */
+::-webkit-scrollbar {
+width: 8px;
+background-color: black;
+}
+
+::-webkit-scrollbar-track {
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #80a040;  
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #88ba1c;  
+}
+/*akhir SCROLL BAR */
+
+
+
+/* NAVBAR */
+.navbar {
+    z-index: 10;
+    background-image: linear-gradient(black,black);
+    box-shadow: 1px 1px 10px rgba(100,100,100,0.6);
+}
+.navbar-brand {
+    font-size: 28px;
+    font-family: blackops;
+}
+.navbar-brand, .nav-link {
+    color: #e8eaf6 !important;
+}
+button:focus {
+    outline: none;
+}
+.navbar-toggler {
+    border: none;
+}
+.nav-btn {
+    width: 100px;
+    height: 35px;
+    outline-color: #80a040;
+    background-color: #80a040; 
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    color: white;
+    transition: 1s;
+}
+.nav-btn a{
+    color: white;
+    text-decoration: none;
+
+}
+.nav-item {
+    margin-left: 10px;
+}
+.nav-btn:hover {
+    border: 2px solid white;
+    transition: 1s;
+}
+
+.bar1, .bar2 {
+    width: 20px;
+    height: 3px;
+    background-color: #e8eaf6;
+    margin: 6px 0; 
+    transition: 0.3s ease;
+}
+.change .bar1 {
+    transform: rotate(-45deg) translate(-3px,3px);
+    background-color: #80a040;
+}
+.change .bar2 {
+    transform: rotate(45deg) translate(-3px,-3px);
+    background-color: #80a040; 
+}
+.navbar-brand span{
+    color: #80a040 !important;
+}
+/*akhir NAVBAR*/
+.active {
+    color: #80a040 !important;
+    font-weight: bold;
+}
+
+
+/*JUMBOTRON (HOME)*/
+.jumbotron {
+    background-image: url(../assets/img/jumbotron.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+}
+.jumbotron .container {
+    position: relative;
+    z-index: 1;
+}
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 80%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0; 
+}
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 200px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: courgette;
+}
+.jumbotron p {
+    opacity: 0;
+}
+.chevron1 {
+    opacity: 0;
+}
+.chevron2 {
+    opacity: 0;
+}
+.chevron3 {
+    opacity: 0;
+}
+/*akhir JUMBOTRON*/
+main {
+    background-color: black;
+}
+
+
+
+
+
+
+/*ABOUT*/
+.about {
+    text-align: center;
+    margin-top: -100px;
+    padding: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: rgba(230,230,230,0.7);
+
+}
+.about h1 {
+    font-size: 52px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about h3 {
+    font-size: 40px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.about h3 span {
+    font-weight: 500;
+}
+.about p {
+    font-size: 18px;
+    font-weight: 200;
+    margin: 30px 0;
+    opacity: 0.8;
+}
+.about img {
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 30px;
+}
+/*akhir ABOUT*/
+.others {
+    margin-bottom: 20px;
+}
+.others img {
+    width: 100px;
+}
+.others p {
+    margin-top: 0;
+}
+.others a {
+    color: #80a040;
+}
+.over {
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+footer {
+    background-color: black;
+    margin: auto;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0));
+    height: 680px;
+    box-shadow: 1px 1px 10px rgba(100,100,100,0.6);
+}
+footer h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #80a040; 
+    margin: 20px 0;
+}
+footer p {
+    color: #acacac;
+}
+footer .block a{
+    margin-right: 10px;
+}
+footer a:hover {
+    text-decoration: none;
+    color: #acacac;
+}
+
+footer a {
+    color: #80a040;
+}
+.foot {
+    margin-bottom: 10px;
+}
+/*akhir FOOTER*/
+
+
+
+/* UTILITY */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-color: #80a040;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.9), rgba(0,0,0,0));
+    box-shadow: 3px 3px 15px rgba(255,255,255,0.7);
+    border: none;
+    cursor: pointer;
+}
+.tombol:hover {
+    background-color: #80a040;
+}
+.tombol:focus {
+    outline: none;
+}
+button:focus {
+    outline: none;
+}
+.fab {
+    color: #80a040;
+    font-size: 40px;
+}
+.fab:hover {
+    color: #acacac;
+}
+
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    
+
+
+
+
+    /*NAVBAR*/
+    .navbar {
+        position: fixed;
+        z-index: 2;
+        background-color: transparent;
+        background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0));
+        box-shadow: 0px 0px 0px rgba(100,100,100,0.6);
+    }
+    .navbar-brand {
+        font-size: 34px;
+    }
+    .navbar-brand, .nav-link {
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 1)
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+        transition: 1s;
+    }
+    .nav-link:hover::after {
+        content : '';
+        display: block;
+        border-bottom: 3px solid #80a040;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        animation: width 1s;
+    }
+    .nav-btn {
+        height: 40px;
+    }
+    @keyframes width {
+        0%{width: 0%;}
+        100%{width: 50%}
+    }
+    .navbar.muncul1 {
+        transition: 0.5s;
+        background-image: linear-gradient(black,black);
+        box-shadow: 1px 1px 10px rgba(100,100,100,0.6);
+    }
+    .navbar-collapse {
+       height: 0;
+    }
+
+    /*akhir*/
+
+
+
+    /*JUMBOTRON*/
+    .jumbotron {
+        margin-top: -75px;
+        height: 100%;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 62px;
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+    .jumbotron p {
+        margin-top: -10px;
+        color: #e8eaf6;
+        opacity: 0;
+        animation: move 1s ease-in infinite;
+    }
+    .chevron1 {
+        margin-top: 80px;
+        margin-bottom: -20px;
+        animation: chevron1 1s ease-in infinite;
+    }
+    .chevron2 {
+        margin-bottom: -30px;
+        animation: chevron2 1s ease-in infinite;
+    }
+    .chevron3 {
+        animation: chevron3 1s ease-in infinite;
+    }
+    @keyframes move {
+      0% {
+        opacity: 0;
+      }
+      25% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 0;
+        }
+      75% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 1;
+        }
+    }
+    @keyframes chevron1 {
+      0% {
+        opacity: 0.5;
+      }
+      25% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+        }
+      75% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0;
+        }
+    }
+    @keyframes chevron2 {
+      0% {
+        opacity: 0;
+      }
+      25% {
+        opacity: 0.5;
+      }
+      50% {
+        opacity: 1;
+        }
+      75% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 0;
+        }
+    }
+    @keyframes chevron3 {
+      0% {
+        opacity: 0;
+      }
+      25% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 0.5;
+        }
+      75% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0.5;
+        }
+    }
+    /*akhir*/
+
+
+
+    /*ABOUT*/
+    .about {
+        text-align: left;
+        margin-top: -35px;
+    }
+    .about h1 {
+        font-size: 70px;
+        font-family: graduate;
+        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    }
+    .about h3 {
+        font-size: 45px;
+    }
+    .about img {
+        margin-top: 20px;
+    }
+    .titleAbout {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .others {
+        text-align: center;
+    }
+    .others img {
+        width: 200px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .others h6 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .others p {
+        margin-top: -5px;
+    }
+    .others a {
+        color: #e8eaf6;
+        text-decoration: none;
+        transition: 1s;
+    }
+    .others a:hover {
+       color: #80a040;
+    }
+    .others a:hover::after {
+        content : '';
+        display: block;
+        border-bottom: 3px solid #80a040;
+        width: 20%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        animation: width1 1s;
+    }
+    @keyframes width1 {
+        0%{width: 0%;}
+        100%{width: 20%}
+    }
+
+    /*akhir*/
+    .overflow {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    
+
+
+
+    /*quote*/
+    .quote {
+        height: 200px;
+    }
+    .quote .display-4 {
+        font-size: 40px;
+        line-height: 200px;
+    }
+    /*akhir*/
+
+
+
+    /*contact*/
+    .contact {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .contact h3 {
+        font-family: graduate;
+        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    }
+    .form-group {
+        margin-top: 0;
+    }
+    /*akhir contact*/
+
+
+
+    /*Footer*/
+    footer {
+        height: 330px;
+        padding-top: 20px;
+    }
+    footer img {
+        transition: 1s
+    }
+    footer iframe{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .foot {
+        text-align: center;
+    }
+    .block a{
+        display: block;
+    }
+    /*akhir Footer*/
+    
+    .active::after {
+        content : '';
+        display: block;
+        border-bottom: 3px solid #80a040;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        animation: width 1s; 
+    }
+}

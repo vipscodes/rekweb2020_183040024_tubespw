@@ -1,0 +1,89 @@
+.body {
+	background-image: linear-gradient(#303846,#303846);
+}
+.form input {
+	display: block;
+}
+form {
+	color: white;
+}
+.information {
+	text-align: center;
+	display: block;
+	margin-bottom: 20px;
+	color: white;
+
+}
+
+.form {
+	background-color: #243b55;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	
+}
+
+.us {
+	padding-bottom: 30px;
+}
+
+.h1 {
+	display: none;
+}
+
+input {
+	margin: auto;
+	margin-bottom: 20px;
+	width: 90%;
+	border-radius: 20px;
+	border:2px solid white;
+	padding: 0 10px;
+}
+
+button {
+	background-color: #303846;
+	border-radius: 30px;
+	height: 40px;
+	width: 100px;
+	color: white;
+	border: 1px solid white;
+	cursor: pointer;
+}
+@media (min-width: 992px) {
+	.adm {
+		margin-top: 50px;
+	}
+
+	.information {
+		text-align: justify;
+		background-color: #141e30;
+		margin-right: -20px;
+		margin-left: 18px;
+		margin-bottom: 0;
+		height: 600px;
+		/*border-radius: 30px 0 0 30px;*/
+		padding: 30px;
+		position: relative;
+	}
+
+	.us {
+		padding-bottom: 0px;
+		height: 650px;
+	}
+	.form {
+		height: 600px;
+	}
+	.h1 {
+		display: block;
+	}
+	.container-fluid {
+		min-height: 500px;
+	}
+	.a {
+		border-radius: 0px;
+	}
+	.row {
+
+	}
+}

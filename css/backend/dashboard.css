@@ -1,0 +1,52 @@
+::-webkit-scrollbar {
+width: 8px;
+background-color: #f2efef;
+}
+
+::-webkit-scrollbar-track {
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #25548a;  
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #25548a;  
+}
+
+
+.col {
+	margin: 0;
+}
+.card {
+	background-color: #f2efef;
+}
+.quote {
+	background-color: #25548a;
+}
+.over {
+	overflow-y: scroll;
+}
+
+.comment {
+	height: 300px;
+}
+.rating {
+	height: 165px;
+}
+.main ul {
+	font-size: 13px;
+	margin-top: -10px;
+}
+.card img {
+	width: 100%;
+	border-radius: 5px;
+}
+.imp {
+	height: 200px;
+}
+.last {
+	height: 230px;
+}
