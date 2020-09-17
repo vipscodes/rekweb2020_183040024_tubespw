@@ -1,0 +1,30 @@
+assets
+IMG :
+  portfolio :
+    1.jpg 			(property of Avip Syaifulloh)
+    2.jpg 			(property of Avip Syaifulloh)
+    3.jpg 			(property of Avip Syaifulloh)
+    4.jpg 			(property of Avip Syaifulloh)
+    5.jpg 			(property of Avip Syaifulloh)
+    6.jpg 			(property of Avip Syaifulloh)
+    
+
+    profile.png 		(property of Avip Syaifulloh)
+    favicon.png			(property of Avip Syaifulloh)
+    parallax.jpg		(property of Avip Syaifulloh
+    jumbotron-bg.png 		(property of unsplash.com)
+
+  icon :
+    media-play-8x.png		(property of open-iconic-master)
+    monitor-8x.png		(property of open-iconic-master)
+    musical-note-8x.png		(property of open-iconic-master)
+    chevron-bottom-4x		(property of open-iconic-master)
+    chevron-bottom-6x		(property of open-iconic-master)
+    chevron-bottom-8x		(property of open-iconic-master)
+    blog1.png 			(property of pngtree.com)
+    ig1.png 			(property of pngtree.com)
+
+FONT :
+    Courgette 			(property of google font)
+    Blackops			(property of google font)
+    Graduate			(property of google font)
